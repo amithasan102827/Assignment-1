@@ -85,7 +85,30 @@ h1{
 .box-item img{
    width: 95%;
    margin-top: 5%;
-   padding-left: 7px;
- 
+   padding-left: 7px;  
+}
+.followers{
+    display: flex;
+    justify-content: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
   
+   
+}
+.followers-item{
+   padding-left: 130px;
+   padding-right: 130px;
+}
+.last-part{
+    justify-content: center;
+    text-align: center;
+    background: black;
+    color: white;
+     padding-bottom: 90px;
+    padding-top: 30px;
 }
