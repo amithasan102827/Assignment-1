@@ -57,3 +57,35 @@ h1{
     padding-right: 5%;
    
 }
+.my-recipies h2{
+ text-align: center;
+ padding-top: 50px;
+}
+.my-recipies p{
+    text-align: center;
+}
+
+
+.box-banner{
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.box-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 13px;
+    box-shadow: 10px 10px 40px gray;
+}
+.box-item img{
+   width: 95%;
+   margin-top: 5%;
+   padding-left: 7px;
+ 
+  
+}
