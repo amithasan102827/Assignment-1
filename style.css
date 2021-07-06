@@ -2,6 +2,30 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* This is navigation bar */
+.topnav {
+    display: flex;
+    justify-content: center;
+    background-color: PowderBlue;
+    padding-left: 65%;
+  } 
+.topnav a { 
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav a:hover {
+    background-color: rgb(162, 208, 233);
+    color: rgb(240, 9, 170);
+  }
+
+
+
+  /* This is top banner */
 .orange-color{
     color: orange;
 }
@@ -22,20 +46,29 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(238, 216, 24),rgb(223, 30, 230));
-    color: white;
-    padding: 6px 15px;
-    border-radius: 5px;
+    background-image: linear-gradient(Magenta,MediumOrchid);
+    color:white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    
 }
+.button-2{
+    padding-top:80px;    
+  }
+.button-1{
+      padding-top:50px;    
+  }
+
+
 .top-banner{
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;   
 }
+
+/* This is middle */
 .middle-banner{
-    display: flex;
-   
+    display: flex;  
 }
 
 .half-width{
@@ -57,15 +90,17 @@ h1{
     padding-right: 5%;
    
 }
+/* This is recipie section */
 .my-recipies h2{
  text-align: center;
  padding-top: 50px;
 }
 .my-recipies p{
     text-align: center;
+
 }
 
-
+/* This is box section */
 .box-banner{
     display: flex;
     margin-right: 5%;
@@ -96,14 +131,15 @@ h1{
     padding-top: 2%;
     padding-bottom: 2%;
     box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
-  
-   
+    border-radius: 10px;  
 }
 .followers-item{
    padding-left: 130px;
    padding-right: 130px;
 }
+
+
+/* This is footer section */
 .last-part{
     justify-content: center;
     text-align: center;
@@ -112,3 +148,18 @@ h1{
      padding-bottom: 90px;
     padding-top: 30px;
 }
+.gray-color{
+    color: gray;
+}
+
+
+/* This is hover effect in button */
+.button-1 a:hover {
+    color: rgb(19, 19, 18);
+  }
+.button-2 a:hover {
+    color: rgb(19, 19, 18);
+}
+
+
+  
